@@ -3,8 +3,14 @@ uuid = "2787f999-a38a-413a-a38a-ba2808f80e75"
 authors = ["Maurizio Tomasi <ziotom78@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
+
 [compat]
-julia = "1"
+julia = "1.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
